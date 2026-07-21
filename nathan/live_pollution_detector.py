@@ -8,7 +8,7 @@ import cv2
 import numpy as np
 import onnxruntime as ort
 
-MODEL_PATH = "/home/nvidia12/jetson-inference/python/training/classification/models/datase5t/resnet18.onnx"
+MODEL_PATH = "Air-Pollution-Code/nathan/resnet18.onnx"
 IMAGE_SIZE = (224, 224)
 THRESHOLD = 0.75
 HIGH_CLASS_INDEX = 1
